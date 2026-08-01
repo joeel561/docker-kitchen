@@ -1,0 +1,22 @@
+extends NodeState
+
+@export var player: Player
+@export var animated_sprite_2d: AnimatedSprite2D
+
+
+func on_process(delta: float):
+	pass
+	
+func _on_physics_process(delta: float):
+	pass
+
+
+func _on_next_transition() -> void:
+	if Input.is_action_just_pressed("read_recipe"):
+		transition.emit("Idle")
+		
+func _on_enter() -> void:
+	animated_sprite_2d.play("recipe")
+
+func _on_exit() -> void:
+	animated_sprite_2d.stop()

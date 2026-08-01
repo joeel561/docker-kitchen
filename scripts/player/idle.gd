@@ -28,6 +28,12 @@ func _on_next_transition() -> void:
 	if GameInputEvents.sit_down_input():
 		transition.emit("Sit")
 		
+	if GameInputEvents.read_recipe():
+		transition.emit("Read")
+		
+	if GameInputEvents.use_knife():
+		transition.emit("knife")
+		
 func _on_enter() -> void:
 	pass
 

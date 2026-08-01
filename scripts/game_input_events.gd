@@ -17,12 +17,24 @@ static func movement_input() -> Vector2:
 	return direction
 
 static func sit_down_input() -> bool: 
-	if direction == Vector2.ZERO && Input.is_action_pressed("sit_down"):
+	if direction == Vector2.ZERO && Input.is_action_just_pressed("sit_down"):
 		return true
 	else: 
 		return false
 		
-	
+
+static func read_recipe() -> bool: 
+	if direction == Vector2.ZERO && Input.is_action_just_pressed("read_recipe"):
+		return true
+	else: 
+		return false
+		
+static func use_knife() -> bool: 
+	if direction == Vector2.ZERO && Input.is_action_just_pressed("knife"):
+		return true
+	else: 
+		return false
+		
 static  func  is_movement_input() -> bool:
 	if direction == Vector2.ZERO:
 		return false
