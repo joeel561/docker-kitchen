@@ -12,7 +12,6 @@ func on_process(delta: float):
 func _on_physics_process(delta: float):
 	direction = GameInputEvents.movement_input()
 	
-	print(direction)
 		
 	if direction == Vector2.UP:
 		animated_sprite_2d.play("walk_back")

@@ -16,7 +16,10 @@ func _on_next_transition() -> void:
 		transition.emit("Idle")
 		
 func _on_enter() -> void:
-	animated_sprite_2d.play("knife")
+	if player.player_direction == Vector2.UP:
+		animated_sprite_2d.play("knife_back")
+	else:
+		animated_sprite_2d.play("knife")
 
 func _on_exit() -> void:
 	animated_sprite_2d.stop()

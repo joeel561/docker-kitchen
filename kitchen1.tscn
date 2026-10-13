@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://bhioxb6ola2iu" path="res://assets/3_Animated_objects/16x16/spritesheets/animated_kitchen_pan_with_omelette.png" id="7_ncg6r"]
 [ext_resource type="Texture2D" uid="uid://c4swbuysnuk7y" path="res://assets/3_Animated_objects/16x16/spritesheets/animated_fridge.png" id="7_wwx4s"]
 [ext_resource type="Texture2D" uid="uid://bpyfxuofr6mr5" path="res://assets/Bruce_16x16.png" id="11_hc4tm"]
+[ext_resource type="Texture2D" uid="uid://7dxrlskqhfk5" path="res://assets/UI_16x16.png" id="12_nyovy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_htx0y"]
 texture = ExtResource("1_itaha")
@@ -6653,80 +6654,6 @@ texture = ExtResource("5_da8f8")
 [sub_resource type="TileSet" id="TileSet_da8f8"]
 sources/0 = SubResource("TileSetAtlasSource_wwx4s")
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_6fxcu"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(0, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_bo2st"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(32, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_nk117"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(64, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ojpw0"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(96, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8d0ot"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(128, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ximjc"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(160, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_so87e"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(192, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_25iiu"]
-atlas = ExtResource("7_ncg6r")
-region = Rect2(224, 0, 32, 32)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_yf5fn"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_6fxcu")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_bo2st")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_nk117")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ojpw0")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_8d0ot")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ximjc")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_so87e")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_25iiu")
-}],
-"loop": 1,
-"name": &"default",
-"speed": 5.0
-}, {
-"frames": [],
-"loop": 1,
-"name": &"new_animation",
-"speed": 5.0
-}, {
-"frames": [],
-"loop": 1,
-"name": &"new_animation_1",
-"speed": 5.0
-}]
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_235mj"]
 atlas = ExtResource("7_wwx4s")
 region = Rect2(0, 0, 32, 48)
@@ -9286,6 +9213,80 @@ texture = ExtResource("5_da8f8")
 [sub_resource type="TileSet" id="TileSet_fcnqv"]
 sources/0 = SubResource("TileSetAtlasSource_5u4fx")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_6fxcu"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bo2st"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nk117"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ojpw0"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8d0ot"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ximjc"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_so87e"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25iiu"]
+atlas = ExtResource("7_ncg6r")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yf5fn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6fxcu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bo2st")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nk117")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ojpw0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8d0ot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ximjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_so87e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25iiu")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"new_animation",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"new_animation_1",
+"speed": 5.0
+}]
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_5u4fx"]
 atlas = ExtResource("11_hc4tm")
 region = Rect2(96, 32, 16, 32)
@@ -9336,6 +9337,32 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2s5k"]
+atlas = ExtResource("5_da8f8")
+region = Rect2(0.216156, 382.9566, 15.006363, 16.31192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5spc"]
+atlas = ExtResource("12_nyovy")
+region = Rect2(64, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8x8y0"]
+atlas = ExtResource("12_nyovy")
+region = Rect2(80, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h2s5k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5spc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8x8y0")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 2.0
+}]
+
 [node name="Kitchen1" type="Node2D" unique_id=1551534139]
 scale = Vector2(5, 5)
 
@@ -9370,20 +9397,12 @@ texture_filter = 1
 position = Vector2(7.9999986, -7.9999986)
 scale = Vector2(0.9999998, 0.9999998)
 sprite_frames = SubResource("SpriteFrames_d0u6y")
-frame_progress = 0.33341223
 
 [node name="kitchenobjects" type="TileMapLayer" parent="." unique_id=972936314]
 texture_filter = 1
 scale = Vector2(0.99999994, 0.99999994)
 tile_map_data = PackedByteArray("AAAAAP7/AAALAB4AAAAIAP7/AAAKAB0AAAAIAP//AAAKAB4AAAACAP7/AAANABkAAAACAP//AAANABoAAAADAP7/AAAOABkAAAADAP//AAACABUAAAAFAAIAAAALACMAAAADAAIAAAALACMAAAABAAIAAAALACMAAAAEAAIAAAAMACQAAAAJAAMAAAAEADAAAAA=")
 tile_set = SubResource("TileSet_da8f8")
-
-[node name="cooking" type="AnimatedSprite2D" parent="." unique_id=802359564]
-texture_filter = 1
-position = Vector2(15.599999, -16.4)
-scale = Vector2(1.0234374, 0.99808913)
-sprite_frames = SubResource("SpriteFrames_yf5fn")
-autoplay = "default"
 
 [node name="fridge" type="AnimatedSprite2D" parent="." unique_id=149272657]
 visible = false
@@ -9401,20 +9420,29 @@ tile_map_data = PackedByteArray("AAAAAAEAAAAHADgAAAAAAAIAAAAHADkAAAAAAAMAAAAHADo
 tile_set = SubResource("TileSet_3gngh")
 
 [node name="TileMapLayer3" type="TileMapLayer" parent="." unique_id=531208827]
+visible = false
 texture_filter = 1
 scale = Vector2(0.99999994, 0.99999994)
 tile_map_data = PackedByteArray("AAAFAAIAAAAMACMAAAABAAIAAAANACMAAAADAAIAAAALACIAAAACAAIAAAAMACIAAAA=")
 tile_set = SubResource("TileSet_d0u6y")
 
-[node name="Player" parent="." unique_id=464082657 instance=ExtResource("5_j33cm")]
-position = Vector2(101.999985, 39.6)
-scale = Vector2(4.9999995, 4.9999995)
-
 [node name="pan" type="TileMapLayer" parent="." unique_id=105601540]
 visible = false
 texture_filter = 1
+scale = Vector2(0.99999994, 0.99999994)
 tile_map_data = PackedByteArray("AAAAAP//AAAOACMAAAABAP//AAAPACMAAAA=")
 tile_set = SubResource("TileSet_fcnqv")
+
+[node name="cooking" type="AnimatedSprite2D" parent="." unique_id=802359564]
+texture_filter = 1
+position = Vector2(15.599999, -16.4)
+scale = Vector2(1.0234374, 0.9980891)
+sprite_frames = SubResource("SpriteFrames_yf5fn")
+autoplay = "default"
+
+[node name="Player" parent="." unique_id=464082657 instance=ExtResource("5_j33cm")]
+position = Vector2(101.999985, 39.6)
+scale = Vector2(4.9999995, 4.9999995)
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1803558506]
 texture_filter = 1
@@ -9422,3 +9450,38 @@ position = Vector2(103.59999, 97.799995)
 sprite_frames = SubResource("SpriteFrames_3gngh")
 autoplay = "default"
 frame_progress = 0.78066516
+
+[node name="food4" type="Sprite2D" parent="." unique_id=1095710696]
+visible = false
+texture_filter = 1
+position = Vector2(264.19998, 44.6)
+scale = Vector2(0.9999986, 0.9999986)
+texture = SubResource("AtlasTexture_h2s5k")
+
+[node name="food3" type="Sprite2D" parent="." unique_id=2038906039]
+visible = false
+texture_filter = 1
+position = Vector2(265.59998, 34.000004)
+scale = Vector2(0.99999934, 0.99999934)
+texture = SubResource("AtlasTexture_h2s5k")
+
+[node name="food2" type="Sprite2D" parent="." unique_id=953923171]
+visible = false
+texture_filter = 1
+position = Vector2(278.4, 40.4)
+scale = Vector2(0.9999996, 0.9999996)
+texture = SubResource("AtlasTexture_h2s5k")
+
+[node name="food" type="Sprite2D" parent="." unique_id=790946053]
+visible = false
+texture_filter = 1
+position = Vector2(151.20001, 55.000004)
+scale = Vector2(0.99999976, 0.99999976)
+texture = SubResource("AtlasTexture_h2s5k")
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="." unique_id=1145090285]
+texture_filter = 1
+position = Vector2(114.99999, 81.799995)
+sprite_frames = SubResource("SpriteFrames_h2s5k")
+autoplay = "default"
+frame_progress = 0.3099557
